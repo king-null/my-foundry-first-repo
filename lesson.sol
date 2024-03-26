@@ -68,3 +68,19 @@ pragma solidity 0.8.18;
 
 // to test single contract in script
 // forge script script/Interactions.s.sol:FundFundMe  rpc_url jfjd --private_key fjdj
+
+//  publishing code to github
+// first using foundry do
+// git status  -> this will show you what you re pushing to github and so on, then do
+// git add .  -> this says add all the files and folder in here to the one that will will commited with
+// git log  -> this help us see all the version of our code that was pushed to github
+// then lets mk our first commit with
+// git commit -m 'our first commit!'  -> then after making ur first commit
+// go to your github  press new to create new repository then type the name make it public or private
+// THEN AFTER THAT, copy the link showed that hv .git then come bck to your cli and type
+// git remote add origin https://github.com/king-null/my-foundry-first-repo.git
+// the remote key word refers a website like github, add is saying we re going to add a remote place for us to push our code
+// origin is a shorten name for this giant URL the URL is the actual place
+// if we do git remote -v  -> we can see all the diffrent places we can push and pull our code from, next we do
+// git push -u origin main -> after this you can now  see all your code in github
+// note::: we can do git config user.name "kensel.null" -> this will change the username you are signing with to kenselnull
